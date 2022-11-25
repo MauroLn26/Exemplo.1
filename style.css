@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+#pai{
+    background-color: #CEE3F6; 
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+
+.principal{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    padding: 20px;    
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056; /*Usado para dar sombras*/
+    
+}
+.login{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family:'Righteous', cursive;
+    color: #2E2EFE;
+    font-size: 28px;
+}
+.subt{
+    display: flex;
+    align-items: flex-start;
+    font-family:'Righteous', cursive;
+    color: #8181F7;
+    text-decoration: underline;
+}
+.formu{
+    display: flex;
+    flex-direction: column;
+    font-family:'Righteous', cursive;
+    color: #8181F7;
+}
+.box1{
+    height: 25px;
+    outline: none; /*Usado para retirar a borda de uma caixa*/
+}
+.box2{
+    height: 25px;
+    outline: none; /*Usado para retirar a borda de uma caixa*/
+}
+.relembre-p{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #A9A9F5;
+}
+
+.botao-login{
+    background-color:pink;
+    color: black;
+    font-family:'Righteous', cursive;
+    font-size: 13px; /*Usado para definir o tamanho da fonte*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none; /*Usado para retirar o sublinhado dos links*/
+    margin: 0;
+    text-transform: uppercase; /* Usado para deixar todo o texto maiusculo*/
+    cursor: pointer; /*Usado para definir cursor de ação*/
+    box-shadow: 0px 10px 40px palevioletred;
+    border-radius: 10px ;
+    border: palevioletred;
+
+}
+.esquece-s{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.rodape{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 20%;
+    font-family: 'Roboto', sans-serif;
+    color: #faebd7;
+
+}
+
